@@ -1,0 +1,15 @@
+container {
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+#change {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40vh;
+    height: 20vh;
+    font-size: 2.5vh
+}
