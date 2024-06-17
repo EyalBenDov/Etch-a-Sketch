@@ -1,5 +1,6 @@
 grid = document.querySelector("container");
 document.body.style.margin = 0;
+// Draw A grid with size size, and when you move mouse over it change color
 function draw_grid(size) {
   border = 0.1
   for (let i = 0; i < size; i++) {
@@ -20,7 +21,7 @@ function draw_grid(size) {
 
 let size1 = prompt("grid size here: ")
 draw_grid(size1)
-
+// Add button to change the size
 change_button = document.querySelector("#change")
 change_button.addEventListener("click", () => {
   let newsize = prompt("new grid size here:")
