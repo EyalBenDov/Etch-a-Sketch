@@ -19,8 +19,7 @@ function draw_grid(size) {
   }
 }
 
-let size1 = prompt("grid size here: ")
-draw_grid(size1)
+draw_grid(16)
 // Add button to change the size
 change_button = document.querySelector("#change")
 change_button.addEventListener("click", () => {
